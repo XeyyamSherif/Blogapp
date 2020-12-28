@@ -1,0 +1,15 @@
+.cards{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space between;
+        }
+        .card{
+            height:200px;
+            width:230px;
+            margin:18px
+        }
+        .photo{
+            height:200px;
+            width:230px
+        }
+

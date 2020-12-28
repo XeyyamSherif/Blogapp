@@ -1,0 +1,32 @@
+{%extends 'home.html'%}
+
+{% block content%}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Multi-Image Tutorial</title>
+</head>
+    <style>
+        .center{
+         text-align: center;
+        }
+
+    </style>
+<body>
+    <div class="center">
+        <form method="POST" action="/signin/">{%csrf_token%}
+            <input type="text" name="username" placeholder="Username">
+            <input type="text" name="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <a href="/signup/">Sign up</a>
+</body>
+</html>
+
+{% endblock content %}
