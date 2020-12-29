@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'yoxlama',
-        'USER': 'postgres',
-        'PASSWORD': 'sansyolu',
+        'USER': 'xxxxx',
+        'PASSWORD': 'xxxxx',
         'HOST': 'localhost'
     }
 }
