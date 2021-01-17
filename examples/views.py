@@ -119,8 +119,3 @@ def delete_comment(request,comment_id):
 
 
 
-
-def just(request):
-    username = request.GET.get('username', None)
-    
-    return HttpResponseRedirect('')

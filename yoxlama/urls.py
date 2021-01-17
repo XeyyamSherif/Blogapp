@@ -20,5 +20,5 @@ urlpatterns = [
                   path('postdetail/<int:post_id>/', views.post_detail),
                   path('addcomment/<int:post_id>/', views.add_comment),
                   path('deletecomment/<int:comment_id>/', views.delete_comment),
-                  path('ajax/just/', views.just)
+                #   path('ajax/just/', views.just)
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
